@@ -1,0 +1,5 @@
+rootProject.name = 'customlauncher'
+include ':react-native-android-settings-library'
+project(':react-native-android-settings-library').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-settings-library/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
