@@ -107,7 +107,7 @@ const LauncherScreen = () => {
             }
             
         } catch (error) {
-            console.log("launch error: ", error);
+            console.log("launch error:", error);
         }
     };
 
