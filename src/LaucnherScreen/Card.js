@@ -15,6 +15,7 @@ const Card = ({data, onPress }) => {
 
 
     function settingIconButton(data) {
+        
         if(data.name=="NetworkActivity"){return <Image source={require("../images/network-icon.png")} style={{alignSelf:"center",width: 70,height: 58,padding:20, marginBottom:10}} />}
         if(data.name=="AboutActivity") return <Image source={require("../images/about-icon.png")} style={{alignSelf:"center",width: 58,height: 58,padding:20,marginBottom:10}} /> 
         if(data.name=="GoBack"){return <Image source={require("../images/back-icon-1.png")} style={styles.icon} />;}    
