@@ -33,7 +33,7 @@ export default function App() {
   return (
    <NavigationContainer>
     <LauncherScreen />
-    {/* <Text>hello world gefhrhtyjheytjytjyrju</Text> */}
+    {/* <Text>hello world gefhrhtyjheytjytjyrju</Text> */}//
   </NavigationContainer>
   
   );
